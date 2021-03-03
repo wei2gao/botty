@@ -73,8 +73,8 @@ async def on_message(message):
       await message.channel.send("<:pingfisher:760570803942588487>")
     msg = unidecode(message.content.lower())
     # I don't really get this one? It would be interesting if we could get another bot to respond to it with "you know"
-    if msg == "based":
-      await message.channel.send("on what")
+    #if msg == "based":
+    #  await message.channel.send("on what")
     # People (mainly mag) were abusing this as an oracle.
     # if "jermaJup1" in message.content and "jermaJup2" in message.content:
     #   await message.channel.send("no")
@@ -87,10 +87,12 @@ async def on_message(message):
     # if msg == "shut up deathly":
     #   await message.channel.send("https://cdn.discordapp.com/attachments/508525430224060417/789004191594971156/obama_deathly.mp4")
     # for cursed chat days
-    if msg == "what has this place become":
-      await message.channel.send("https://cdn.discordapp.com/attachments/384231586205270027/791530703421702154/image0.png")
-    if msg == "bonk drone has found the horny":
-      await message.channel.send("https://cdn.discordapp.com/attachments/384231586205270027/809617407240962128/ced.png")
+   # if msg == "what has this place become":
+    #  await message.channel.send("https://cdn.discordapp.com/attachments/384231586205270027/791530703421702154/image0.png")
+    #if msg == "bonk drone has found the horny":
+    #  await message.channel.send("https://cdn.discordapp.com/attachments/384231586205270027/809617407240962128/ced.png")
+    #if msg == "heard u were talkin shit":
+    #  await message.channel.send("https://cdn.discordapp.com/attachments/384231586205270027/816535684596367400/505xbj.png")
 
 @client.event
 async def on_disconnect():
